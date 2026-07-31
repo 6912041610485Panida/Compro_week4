@@ -8,7 +8,7 @@ int main() {
 
                                  //ประกาศตัวแปรเก็บข้อมูลน้ำดื่ม
     char drink[30];              //เครื่องดื่ม
-    float price;                   //ราคา
+    float price;                 //ราคา
     char size;                   //ไซส์
 
     scanf("%s %d %f", name, &age, &height);    //รับข้อมูลบรรทัดที่1
@@ -20,5 +20,5 @@ int main() {
     //แสดงข้อมูลเครื่องดื่ม
     printf("Favorite drink %s costs %.2f baht and has size %c.\n", drink, price, size);
 
-    return 0;                     //รับข้อมูลบรรทัดที่1
+    return 0;                     //สิ้นสุดการทำงาน
 }
